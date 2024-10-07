@@ -1,0 +1,10 @@
+print('*'*70)
+print('-'*26 + 'Conversor de tipos' + '-'*26)
+print('*'*70)
+nint = int(input('Converta um inteiro em um decimal!: '))
+dec = float(input('Converta uma float em uma string: '))
+texto = str(input('Converta uma string em um número: '))
+
+print(f'{float(nint)}')
+print(str(dec))
+print(int(texto))
